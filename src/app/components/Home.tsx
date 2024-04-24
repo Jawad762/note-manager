@@ -18,7 +18,7 @@ const Home = () => {
         {notes.map((note: Note) => (
         <Link key={note.id} href={`/notes/${note.id}`} className="space-y-2 w-full h-full shadow-xl bg-lightBlack text-white rounded-lg p-4 aspect-[4/3] border border-transparent hover:bg-black hover:border-purpleMain cursor-pointer">
           <p className="text-2xl break-all border-b border-dotted pb-1 line-clamp-1">{note.title}</p>
-          <p className="break-all max-w-full line-clamp-6">{note.description} ahdhdhddh  ajdjhdhdhdhddh dddhhdhd ahhshshshs sbshshshsh djjwjkwkwklwl jdjdhdhdhdh djdjdjk djdhdhd eheeeeggegegegegeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+          <p className="break-all max-w-full line-clamp-6">{note.description}</p>
         </Link>
         ))}
       </section>
